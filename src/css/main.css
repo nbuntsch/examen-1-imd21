@@ -5,7 +5,7 @@
 :root {
   --black: #000000;
   --purple: #783DF6;
-  --white: #F6F6F6;
+  --cream: #F6F6F6;
   --pink: #F9DDE7;
 }
 
@@ -76,4 +76,29 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px;
+}
+
+/* partie 1 */
+
+.firstpart h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 46px 174px 32px 16px;
+}
+
+.program {
+  margin: 0px 16px 48px 16px;
+  background: var(--cream);
+  box-shadow: 0 5px 0 0 var(--purple);
+}
+
+.program h2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.program p {
+  font-size: 20px;
+  padding: 0px 16px 16px 16px;
 }
