@@ -52,3 +52,130 @@ header {
   background-color: black;
   padding: 10px 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 16px 62px;
+}
+
+.explore {
+  padding: 46px 16px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.explore h1 {
+  padding-bottom: 31px;
+}
+
+.main-article {
+  background-color: #F6F6F6;
+  box-shadow: 0 5px 0 0 #783DF6;
+}
+.main-article h2 {
+  padding: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.main-article p {
+  padding: 0 16px 16px 16px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.first {
+  margin-bottom: 48px;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+}
+
+.buy h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 16px;
+}
+
+.buy p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0 16px 16px 16px;
+}
+
+.buy .button {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 32px;
+  margin: 16px;
+}
+
+.more-article {
+  padding: 48px 16px 0 16px;
+}
+
+.more-article h1 {
+  padding-bottom: 32px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.infos {
+  background-color: #F6F6F6;
+  margin-bottom: 12px;
+}
+
+.section h4 {
+  font-weight: 700;
+  line-height: 20px;
+  padding: 16px;
+}
+
+.section p {
+  line-height: 22px;
+  padding: 0 16px 16px 16px;
+}
+
+.section article {
+  width: 173px;
+}
+
+.button {
+  margin: 0 110px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 24px;
+}
+
