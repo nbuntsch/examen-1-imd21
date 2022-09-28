@@ -83,17 +83,27 @@ main nav a {
   text-decoration: none;
 }
 
+.text {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .programm h2 {
   font-size: 36px;
   font-weight: 700;
   padding: 0 160px 30px 0;
 }
-.explore {
-  padding: 48px 16px;
+
+.programm h3 {
+  font-size: 22px;
+  line-height: 24px;
 }
 
-.explore article {
-  background-color: #f6f6f6;
+.programm p {
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .programm article {
@@ -104,4 +114,12 @@ main nav a {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.explore {
+  padding: 48px 16px;
+}
+
+.explore article {
+  background-color: #f6f6f6;
 }
