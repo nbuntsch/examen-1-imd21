@@ -1,0 +1,15 @@
+html {
+  margin: auto;
+  width: 390px;
+}
+
+header {
+  background-color: black;
+}
+
+header img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
