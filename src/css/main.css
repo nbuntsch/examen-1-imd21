@@ -160,10 +160,27 @@ article {
 .button-view {
   text-align: center;
   color: white;
-
   background-color: black;
 }
 
 .button-view a {
   padding: 16px 32px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f9dde7;
+  padding: 32px 16px;
+}
+
+.about-container div {
+  width: 173px;
+  border-top: black solid 3px;
+}
+
+.about-container p,
+h3 {
+  margin-top: 12px;
 }
