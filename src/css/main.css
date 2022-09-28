@@ -46,6 +46,12 @@ video {
 
 /* header */
 
+header {
+  position: fixed;
+  background-color: white;
+  margin-bottom: 60px;
+}
+
 .flex-container {
   display: flex;
 }
@@ -69,6 +75,10 @@ header img {
 
 /* main */
 /* Expore the programme */
+
+main .bfi-img {
+  margin-top: 116px;
+}
 
 h1 {
   font-weight: bold;
