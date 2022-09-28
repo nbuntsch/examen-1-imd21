@@ -98,6 +98,10 @@ main nav a {
 
 .programm article {
   border-bottom: 5px solid #783df6;
+}
+
+.programm .container {
   display: flex;
+  flex-direction: column;
   gap: 40px;
 }
