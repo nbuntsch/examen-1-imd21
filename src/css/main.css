@@ -42,3 +42,61 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+/* Lato Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Lato Bold Italic
+
+font-family: lato, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Lato Bold
+
+font-family: lato, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Lato Regular
+
+font-family: lato, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+ */
+
+h1 {
+  background: black;
+  margin-bottom: 16px;
+  padding: 10px 20px;
+}
+
+.distribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+}
