@@ -27,6 +27,8 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   font-family: "Lato", sans-serif;
+  width: 390px;
+  margin: auto;
 }
 
 a {
@@ -62,7 +64,7 @@ nav {
   padding: 16px 0px;
 }
 
-a {
+nav a {
   padding: 9px;
 }
 
@@ -82,7 +84,7 @@ h1 {
   padding-bottom: 32px;
 }
 
-h2 {
+main h2 {
   padding: 19px 0;
 }
 
@@ -115,4 +117,45 @@ figcaption {
   background-color: white;
   color: black;
   margin: 32px 217px 0 0;
+}
+
+.article-films {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  justify-content: flex-start;
+  font-size: 19px 16px 16px;
+}
+
+.film figcaption {
+  padding: 16px;
+}
+
+footer {
+  background-color: #f9dde7;
+  padding: 32px 16px 16px;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 0;
+}
+
+footer a {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+.footer-infos {
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-count: 2;
+}
+
+.footer-collumn {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 3px black;
 }
