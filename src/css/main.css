@@ -72,3 +72,36 @@ nav {
 a {
   text-decoration: none;
 }
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 38px;
+}
+
+.programme {
+  margin: 46px 16px 48px 16px;
+}
+
+.programme article {
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 48px;
+  background-color: #f6f6f6;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.programme img {
+  margin-bottom: 16px;
+}
+
+.programme h3,
+p {
+  padding: 0 16px 16px 16px;
+}
