@@ -69,6 +69,11 @@ header {
   padding: 10px 20px;
 }
 
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
 main nav {
   display: flex;
   flex-direction: row;
@@ -83,6 +88,33 @@ main nav a {
   text-decoration: none;
 }
 
+footer {
+  background-color: #f9dde7;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+footer section {
+  width: 50%;
+  border-top: 3px solid black;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer h2 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
 .explore h2 {
   font-size: 36px;
   font-weight: 700;
@@ -93,11 +125,6 @@ main nav a {
 .programm h3 {
   font-size: 22px;
   line-height: 24px;
-}
-
-p {
-  font-size: 20px;
-  line-height: 28px;
 }
 
 .programm article {
