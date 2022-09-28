@@ -67,10 +67,18 @@ header a {
   justify-content: space-evenly;
   font-size: 18px;
   padding: 16px 0;
+  background-color: white;
+  line-height: 19px;
 }
 
 .programme {
   padding: 46px 16px 0 16px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
 }
 
 h2 {
@@ -161,6 +169,10 @@ article {
   text-align: center;
   color: white;
   background-color: black;
+  width: 136px;
+  padding: 16px 0;
+  margin: 12px auto 48px auto;
+  font-size: 20px;
 }
 
 .button-view a {
@@ -173,14 +185,22 @@ article {
   flex-wrap: wrap;
   background-color: #f9dde7;
   padding: 32px 16px;
+  justify-content: space-evenly;
 }
 
 .about-container div {
   width: 173px;
   border-top: black solid 3px;
+  padding-top: 12px;
 }
 
-.about-container p,
-h3 {
+.about-container p {
   margin-top: 12px;
 }
+
+/* .clip {
+  position: absolute;
+  height: 32px;
+  padding: 10px;
+  margin: 16px;
+} */
