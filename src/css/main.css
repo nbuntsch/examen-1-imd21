@@ -179,3 +179,28 @@ h1 {
   padding: 16px 24px;
 }
 
+footer p {
+  border-top: solid 3px black;
+  font-weight: 700;
+}
+
+footer a,
+p {
+  padding-top: 12px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F9DDE7;
+  margin-top: 48px;
+  padding: 32px 16px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  max-width: 173px;
+}
