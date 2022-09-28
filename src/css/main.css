@@ -94,7 +94,7 @@ main nav a {
   line-height: 24px;
 }
 
-.programm p {
+p {
   font-size: 20px;
   line-height: 28px;
 }
@@ -127,4 +127,10 @@ main nav a {
 .bfi-membership {
   background-color: black;
   color: white;
+}
+
+.bfi-membership h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
 }
