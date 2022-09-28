@@ -45,3 +45,28 @@ video {
 html {
   font-family: "Lato", sans-serif;
 }
+
+h1 {
+  background: #000000;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 16px 62px;
+}
+
+a {
+  font-family: "Lato-Bold";
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 16px;
+  justify-content: space-between;
+  display: block;
+}
