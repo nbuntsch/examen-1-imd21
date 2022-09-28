@@ -118,6 +118,50 @@ h3 {
   padding: 16px;
 }
 
+.films {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.films article {
+  background-color: #f6f6f6;
+  max-width: 173px;
+  margin: 6px;
+  height: 300px;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.films article p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 0px 16px 16px 16px;
+}
+
+.films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-films {
+  background-color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px 32px;
+  margin: 6px 0px 48px 127px;
+}
+
+footer {
+  background-color: #f9dde7;
+}
+
 /* ====================================
 // base rules
-// ==================================== */
+// ==================================== */ ;
