@@ -43,6 +43,10 @@ video {
 // base rules
 // ==================================== */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Lato;
   background-color: white;
@@ -52,10 +56,18 @@ header {
   padding-bottom: 46px;
 }
 
-nav {
+.nav {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
   padding-bottom: 16px;
   padding-top: 16px;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 62px;
+  margin-right: 62px;
 }
 
 h1 {
@@ -184,7 +196,6 @@ a {
   line-height: 22px;
   margin-left: 16px;
   margin-right: 16px;
-  margin-bottom: 16px;
 }
 
 .robe-of-gems-film p {
@@ -210,16 +221,64 @@ a {
   line-height: 24px;
   padding: 16px 32px;
   max-width: 136px;
-  margin: 16px;
   font-family: Lato-Bold;
 }
 
 .button-container-view-all {
-  display: flex;
-  justify-content: center;
+  margin: auto;
   padding-bottom: 48px;
 }
 
 footer {
   background: #f9dde7;
+  padding-bottom: 32px;
+}
+
+.element-container {
+  padding-top: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.element-container h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+.intro-festival {
+  padding-bottom: 12px;
+}
+
+.sponsors {
+  padding-bottom: 12px;
+}
+
+.access {
+  padding-bottom: 12px;
+}
+
+.how {
+  padding-bottom: 12px;
+}
+
+.tickets {
+  padding-bottom: 12px;
+}
+
+.rectangle-about {
+  background-color: #000000;
+  max-height: 3px;
+  max-width: 170px;
+  color: #f9dde7;
+}
+
+.rectangle-tickets {
+  background-color: #000000;
+  max-height: 3px;
+  max-width: 170px;
+  color: #f9dde7;
 }
