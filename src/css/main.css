@@ -106,3 +106,38 @@ h3 {
 p {
   padding: 0 16px 16px 16px;
 }
+
+.membership {
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.membership img {
+  margin-bottom: 15px;
+}
+
+.membership p {
+  padding: 0 16px 32px 16px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0 16px 16px 16px;
+}
+
+.membership button {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border: none;
+  margin: 0 217px 16px 16px;
+}
+
+.membership a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+}
