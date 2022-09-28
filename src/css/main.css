@@ -79,6 +79,14 @@ font-weight: 400;
 font-style: normal;
  */
 
+body {
+  font-family: lato, sans-serif;
+}
+
+header {
+  margin-bottom: 46px;
+}
+
 h1 {
   background: black;
   margin-bottom: 16px;
@@ -89,7 +97,6 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: lato, sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 19px;
@@ -99,4 +106,40 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+.exploring {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 38px;
+  margin-bottom: 16px;
+}
+
+.programme {
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.programme p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.programme-content {
+  margin: 16px;
 }
