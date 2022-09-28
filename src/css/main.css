@@ -163,3 +163,18 @@ button {
   border: none;
   margin: 12px 126px 48px 128px;
 }
+footer {
+  background: #f9dde7;
+  height: 247px;
+}
+
+.about {
+  padding: 32px 16px;
+  width: 173px;
+}
+footer h2 {
+  font-family: "Lato-Bold";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
