@@ -124,7 +124,7 @@ body {
   color: var(--white);
 }
 
-.box  {
+.button  {
   font-size: 20px;
   font-weight: bold;
   padding: 16px 32px;
@@ -135,4 +135,44 @@ body {
 .membership a {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* main partie 3 */
+
+.filmslist h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 48px 174px 32px 16px;
+}
+
+.film {
+  margin: 0px 0px 16px 16px;
+  background: var(--cream);
+  width: 172px;
+}
+
+.film h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.film p {
+  font-size: 16px;
+  padding: 0px 16px 16px 16px;
+}
+
+.film-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-black  {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  margin: 0px 127px 48px 127px;
+  background-color: var(--black);
+  color: var(--white);
 }
