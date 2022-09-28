@@ -79,3 +79,11 @@ main nav a {
   line-height: 19px;
   text-decoration: none;
 }
+
+h1 {
+  margin-bottom: 50px;
+}
+
+main section {
+  margin-bottom: 50px;
+}
