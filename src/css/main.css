@@ -42,3 +42,161 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  width: 390px;
+  margin: auto;
+  font-family: lato-regular;
+  font-size: 20px;
+}
+
+header {
+  height: 48px;
+  background-color: #000;
+}
+
+h1 {
+  font-size: initial;
+}
+
+header img {
+  margin: 10px 20px;
+}
+
+header nav {
+  width: 267px;
+  margin: auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: Lato-Bold;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+main {
+  margin-top: 51px;
+}
+
+h2 {
+  font-family: Lato-Bold;
+  font-size: 36px;
+  line-height: 38px;
+  margin: 46px 16px 0;
+}
+
+section {
+  margin: 32px 16px 0;
+}
+
+article {
+  background-color: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 48px;
+}
+
+p {
+  padding: 16px;
+  line-height: 28px;
+}
+
+h3 {
+  font-family: Lato-Bold;
+  font-size: 22px;
+  line-height: 24px;
+  padding: 16px 0 0 16px;
+}
+
+.article_special {
+  background: #000000;
+  box-shadow: none;
+  margin-bottom: 2px;
+}
+
+.article_special h3 {
+  font-family: Lato-Bold;
+  font-size: 28px;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.article_special p {
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.button {
+  background: #ffffff;
+  font-family: Lato-Bold;
+  line-height: 24px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 32px 16px 16px;
+  display: inline-block;
+}
+
+.section_mini {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mini {
+  margin-bottom: 12px;
+  box-shadow: none;
+  width: calc(50% - 6px);
+}
+
+.mini h3 {
+  font-family: Lato-Bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.mini p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.black {
+  background: #000000;
+  color: #ffffff;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background: #f9dde7;
+  padding: 32px 16px;
+  margin-top: 48px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div {
+  border-top: 3px solid black;
+  width: calc(50% - 6px);
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+  padding: 0;
+}
+
+.footer_title {
+  font-family: Lato-Bold;
+}

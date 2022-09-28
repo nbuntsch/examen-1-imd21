@@ -26,4 +26,160 @@ img, video {
   vertical-align: middle;
 }
 
+body {
+  width: 390px;
+  margin: auto;
+  font-family: lato-regular;
+  font-size: 20px;
+}
+
+header {
+  height: 48px;
+  background-color: #000;
+}
+
+h1 {
+  font-size: initial;
+}
+
+header img {
+  margin: 10px 20px;
+}
+
+header nav {
+  width: 267px;
+  justify-content: space-between;
+  margin: 16px auto auto;
+  display: flex;
+}
+
+header nav a {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 51px;
+}
+
+h2 {
+  margin: 46px 16px 0;
+  font-family: Lato-Bold;
+  font-size: 36px;
+  line-height: 38px;
+}
+
+section {
+  margin: 32px 16px 0;
+}
+
+article {
+  background-color: #f6f6f6;
+  margin-bottom: 48px;
+  box-shadow: 0 5px #783df6;
+}
+
+p {
+  padding: 16px;
+  line-height: 28px;
+}
+
+h3 {
+  padding: 16px 0 0 16px;
+  font-family: Lato-Bold;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.article_special {
+  box-shadow: none;
+  background: #000;
+  margin-bottom: 2px;
+}
+
+.article_special h3 {
+  color: #fff;
+  font-family: Lato-Bold;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.article_special p {
+  color: #fff;
+  line-height: 28px;
+}
+
+.button {
+  background: #fff;
+  margin: 32px 16px 16px;
+  padding: 16px 32px;
+  font-family: Lato-Bold;
+  line-height: 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.section_mini {
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.mini {
+  box-shadow: none;
+  width: calc(50% - 6px);
+  margin-bottom: 12px;
+}
+
+.mini h3 {
+  font-family: Lato-Bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.mini p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.black {
+  color: #fff;
+  background: #000;
+  margin: 0;
+}
+
+.wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+footer {
+  background: #f9dde7;
+  margin-top: 48px;
+  padding: 32px 16px;
+}
+
+.container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.container div {
+  width: calc(50% - 6px);
+  border-top: 3px solid #000;
+}
+
+.container p {
+  margin-top: 12px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer_title {
+  font-family: Lato-Bold;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */
