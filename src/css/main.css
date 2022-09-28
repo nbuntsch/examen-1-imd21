@@ -123,13 +123,43 @@ section.membership p {
   margin: 0 0 16px;
 }
 
-a.membership-button {
+.button {
   display: block;
   width: 157px;
   padding: 16px 32px;
   margin: 0 0 0 16px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   font-weight: 700;
   text-align: center;
+}
+a.membership-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+div.films-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div.films-articles article {
+  width: 173px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 0 0;
+}
+
+section.films h3,
+section.films p {
+  font-size: 16px;
+}
+
+section.films p {
+  line-height: 22px;
+}
+
+section.films h3 {
+  line-height: 20px;
 }
