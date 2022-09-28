@@ -97,3 +97,22 @@ figcaption {
   padding: 0 16px 16px;
   margin-bottom: 46px;
 }
+
+.bfi-membership {
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 0 16px 16px;
+}
+
+.bfi-membership h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bfi-membership nav {
+  background-color: white;
+  color: black;
+  margin: 32px 217px 0 0;
+}
