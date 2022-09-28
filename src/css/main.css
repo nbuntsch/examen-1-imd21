@@ -162,8 +162,7 @@ a {
 .article-film {
   max-width: 173px;
   margin-bottom: 16px;
-  background-color: grey;
-  padding-bottom: 16px;
+  background-color: #f6f6f6;
 }
 
 .article-film img {
@@ -188,6 +187,22 @@ a {
   margin-bottom: 16px;
 }
 
+.robe-of-gems-film p {
+  padding-bottom: 38px;
+}
+
+.rimini-film p {
+  margin-bottom: 16px;
+}
+
+.a-room-of-my-own-film p {
+  padding-bottom: 16px;
+}
+
+.sick-of-myself-film p {
+  padding-bottom: 16px;
+}
+
 .button-view-all {
   background: black;
   font-size: 20px;
@@ -202,4 +217,9 @@ a {
 .button-container-view-all {
   display: flex;
   justify-content: center;
+  padding-bottom: 48px;
+}
+
+footer {
+  background: #f9dde7;
 }
