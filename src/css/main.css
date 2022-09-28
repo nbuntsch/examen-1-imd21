@@ -151,3 +151,19 @@ p {
   text-decoration: none;
   text-align: center;
 }
+
+.films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.films article {
+  width: 173px;
+}
+
+.films p {
+  font-size: 16px;
+  line-height: 22px;
+}
