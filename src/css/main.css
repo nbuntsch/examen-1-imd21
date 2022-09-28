@@ -68,6 +68,7 @@ header img {
 }
 
 /* main */
+/* Expore the programme */
 
 h1 {
   font-weight: bold;
@@ -89,4 +90,34 @@ h3 {
 article p {
   padding: 0 16px 16px 16px;
   font-size: 20px;
+}
+
+/* BFI Membership */
+
+.bfi-membership {
+  background-color: black;
+  color: white;
+  padding-bottom: 16px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 16px;
+}
+
+.bfi-membership p {
+  margin: 0 16px 16px 16px;
+  font-size: 20px;
+}
+
+.bfi-membership .membership-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;
+  text-decoration: none;
+  width: 157px;
+  margin: 32px 0 0 16px;
 }
