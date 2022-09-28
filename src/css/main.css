@@ -45,3 +45,8 @@ video {
 body {
   text-align: center;
 }
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+}
