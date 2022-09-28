@@ -19,6 +19,7 @@ html {
   font-size: 16px;
   max-width: 390px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -53,6 +54,8 @@ header h1 {
 header nav {
   text-align: center;
   padding: 16px 61px 16px 62px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header a {
@@ -61,24 +64,25 @@ header a {
   font-weight: 700;
   line-height: 19px;
   font-size: 18px;
-  padding-right: 16px;
+  /* padding-right: 16px; */
 }
 
-header .venues {
+/* header .venues {
   padding-right: 0;
-}
+} */
 
 section {
   margin-left: 16px;
   margin-right: 16px;
 }
 
-section h2 {
+.programms h2 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 38px;
-  padding: 46px 158px 38px 0;
+  padding-top: 46px;
+  padding-bottom: 32px;
 }
 
 article {
@@ -87,7 +91,6 @@ article {
 
 article .article-information {
   background-color: #f6f6f6;
-  border: 1px solid #979797;
   box-shadow: 0 5px #783df6;
   padding: 16px;
   font-family: "Lato", sans-serif;
@@ -107,7 +110,6 @@ article .article-information p {
 
 article .membership-information {
   background-color: #000000;
-  border: 1px solid #979797;
   color: #ffffff;
   font-family: "Lato", sans-serif;
   padding: 16px;
@@ -129,7 +131,7 @@ article .membership-information p {
 article .membership-information button {
   padding: 16px 32px;
   background-color: #ffffff;
-  border: 1px solid #979797;
+  border: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -138,5 +140,51 @@ article .membership-information button {
 article .membership-information button a {
   text-decoration: none;
 }
+
+.films h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  padding-bottom: 32px;
+}
+
+/* .films article {
+  max-width: 173px;
+} */
+
+.films .article-films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films article {
+  width: 173px;
+  margin-bottom: 0;
+}
+
+.films article div {
+  background-color: #f6f6f6;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 12px;
+  padding: 16px;
+}
+
+.films article div h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.films article div p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* .films article .rimini {
+  padding-right: 12px;
+} */
 
 /* font-family: 'Lato', sans-serif; */
