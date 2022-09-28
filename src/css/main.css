@@ -2,8 +2,8 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+/* :root {
+} */
 
 /* ====================================
 // reset rules
@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  max-width: 390px;
+  margin: auto;
 }
 
 body {
@@ -42,3 +44,28 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header h1 {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+header nav {
+  text-align: center;
+  padding: 16px 61px 16px 62px;
+}
+
+header a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 18px;
+  padding-right: 16px;
+}
+
+header .venues {
+  padding-right: 0;
+}
+
+/* font-family: 'Lato', sans-serif; */
