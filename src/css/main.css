@@ -126,30 +126,28 @@ p {
 
 .membership {
   color: #ffffff;
-  background-color: #000000;
   line-height: 28px;
   font-size: 20px;
+  position: relative;
 }
 
 .membership img {
-  margin-bottom: 15px;
-}
-
-.membership p {
-  padding: 0 16px 32px 16px;
+  height: 345px;
 }
 
 .membership h2 {
   font-size: 28px;
-  margin: 0;
-  padding: 0 16px 16px 16px;
+  margin: 0 0 16px 0;
+}
+
+.membership p {
+  padding: 0 0 32px 0;
 }
 
 .membership button {
   background-color: #ffffff;
   padding: 16px 32px;
   border: none;
-  margin: 0 217px 16px 16px;
 }
 
 button a {
@@ -157,6 +155,19 @@ button a {
   font-weight: 700;
   line-height: 24px;
   font-family: "Lato", sans-serif;
+}
+
+.membership-container {
+  position: absolute;
+  width: 358px;
+  height: 248px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  right: 16px;
+  bottom: 49px;
+  padding: 16px;
 }
 
 .films {
