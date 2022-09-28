@@ -143,3 +143,31 @@ h3 {
 .programme-content {
   margin: 16px;
 }
+
+.membership {
+  background: #000000;
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  height: 467px;
+}
+
+.membership-content {
+  margin: 16px 16px 32px;
+}
+
+.membership h3 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.button {
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  width: 157px;
+  height: 56px;
+  padding: 16px 32px;
+  margin: 16px;
+}
