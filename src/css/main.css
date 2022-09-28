@@ -43,10 +43,26 @@ video {
 // base rules
 // ==================================== */
 body {
-  text-align: center;
+  width: 390px;
+  margin: auto;
+  font-family: "Lato";
+  font-weight: 400;
 }
 
 header {
   background-color: black;
   padding: 10px 20px;
+}
+
+main nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+main nav a {
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
 }
