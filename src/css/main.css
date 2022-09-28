@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -43,4 +44,24 @@ video {
 // base rules
 // ==================================== */
 
-font-family: "Lato", sans-serif;
+.header-logo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px 0px;
+}
+
+a {
+  padding: 9px;
+}
