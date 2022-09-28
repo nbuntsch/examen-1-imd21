@@ -42,6 +42,18 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Bold.woff2);
+  font-weight: 700;
+}
+
 body {
   width: 390px;
   margin: auto;
@@ -63,6 +75,7 @@ main nav {
 
 main nav a {
   font-size: 18px;
+  font-weight: 700;
   line-height: 19px;
   text-decoration: none;
 }
