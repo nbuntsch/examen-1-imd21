@@ -83,13 +83,6 @@ main nav a {
   text-decoration: none;
 }
 
-.text {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .programm h2 {
   font-size: 36px;
   font-weight: 700;
@@ -122,4 +115,11 @@ main nav a {
 
 .explore article {
   background-color: #f6f6f6;
+}
+
+.text {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
