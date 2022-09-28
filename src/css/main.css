@@ -48,6 +48,10 @@ video {
 // base rules
 // ==================================== */
 
+.fixed-top {
+  position: fixed;
+}
+
 header {
   background-color: black;
   padding: 10px 20px;
@@ -65,6 +69,11 @@ nav {
   font-weight: 700;
   font-size: 18px;
   padding: 16px 62px;
+  background-color: white;
+}
+
+.introduction {
+  padding-top: 100px;
 }
 
 .explore {
@@ -85,6 +94,7 @@ h1 {
   background-color: #F6F6F6;
   box-shadow: 0 5px 0 0 #783DF6;
 }
+
 .main-article h2 {
   padding: 16px;
   font-size: 22px;
@@ -97,6 +107,11 @@ h1 {
   font-size: 20px;
   line-height: 28px;
 }
+
+.main-article span {
+  background-color: #783DF6;
+}
+
 
 .first {
   margin-bottom: 48px;
