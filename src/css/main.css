@@ -134,13 +134,14 @@ h3 {
 }
 
 .button {
-  background: #ffffff;
+  background-color: #ffffff;
   font-family: Lato-Bold;
   line-height: 24px;
   padding: 16px 32px;
   text-decoration: none;
   margin: 16px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .section_mini {
@@ -170,7 +171,8 @@ h3 {
 .black {
   background: #000000;
   color: #ffffff;
-  margin: 0;
+  margin: auto;
+  margin-bottom: 48px;
 }
 
 .wrapper {
@@ -181,7 +183,6 @@ h3 {
 footer {
   background: #f9dde7;
   padding: 32px 16px;
-  margin-top: 48px;
 }
 
 .container {
@@ -227,4 +228,20 @@ footer {
   right: 16px;
   bottom: 49px;
   background: rgba(0, 0, 0, 0.7);
+}
+
+/* JS */
+
+.on {
+  background-color: #783df6;
+  color: white;
+}
+
+.invisible-1,
+.invisible-2 {
+  display: none;
+}
+
+.show {
+  display: block;
 }

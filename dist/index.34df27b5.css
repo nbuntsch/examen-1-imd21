@@ -115,7 +115,8 @@ h3 {
 }
 
 .button {
-  background: #fff;
+  cursor: pointer;
+  background-color: #fff;
   margin: 16px;
   padding: 16px 32px;
   font-family: Lato-Bold;
@@ -150,7 +151,7 @@ h3 {
 .black {
   color: #fff;
   background: #000;
-  margin: 0;
+  margin: auto auto 48px;
 }
 
 .wrapper {
@@ -160,7 +161,6 @@ h3 {
 
 footer {
   background: #f9dde7;
-  margin-top: 48px;
   padding: 32px 16px;
 }
 
@@ -202,6 +202,19 @@ footer {
   background: #000000b3;
   position: absolute;
   inset: 48px 16px 49px;
+}
+
+.on {
+  color: #fff;
+  background-color: #783df6;
+}
+
+.invisible-1, .invisible-2 {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
