@@ -176,3 +176,38 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
+/* footer */
+
+footer {
+  background: var(--pink);
+}
+
+.info {
+  margin: 32px 0px 16px 16px;
+  background: var(--pink);
+  width: 173px;
+}
+
+hr {
+  border-width: 3px 0px 0px 0px;
+  border-color: var(--black);
+}
+
+.info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 0px;
+}
+
+.info p {
+  font-size: 16px;
+  padding-bottom: 12px;
+  line-height: 20px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
