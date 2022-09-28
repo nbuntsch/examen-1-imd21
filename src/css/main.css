@@ -71,15 +71,33 @@ h1 {
   padding-bottom: 32px;
 }
 
+h3 {
+  margin: 16px 16px;
+}
+
+p {
+  margin: 16px 16px;
+  padding-bottom: 16px;
+}
+
 .strands-article {
   background: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
-  font-family: Lato-Bold;
   font-size: 22px;
-  color: #000000;
   line-height: 24px;
-  font-family: Lato-Regular;
   font-size: 20px;
-  color: #000000;
   line-height: 28px;
+}
+
+.series-article {
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  font-size: 22px;
+  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.article-container {
+  padding-bottom: 48px;
 }
