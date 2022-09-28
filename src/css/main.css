@@ -76,6 +76,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border: solid 2px #000;
+}
+
 /* header ↓ */
 
 h1 {
@@ -100,3 +104,34 @@ nav ul {
 /* main ↓ */
 
 /* footer ↓ */
+
+footer {
+  background-color: var(--fourth-background-color);
+  padding: 32px 16px;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .column-footer-1,
+footer .column-footer-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer hr {
+  width: 173px;
+  border: 2px solid var(--secondary-background-color);
+}
+
+h4 {
+  padding: 12px 0;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 20px;
+}
