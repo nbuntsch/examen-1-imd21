@@ -79,14 +79,14 @@ a {
   font-size: 20px;
   color: #000000;
   line-height: 28px;
-  margin: 24px 16px 48px;
+  margin: 0px 16px 48px;
 }
 h2 {
   font-family: "Lato-Bold";
   font-size: 36px;
   color: #000000;
   line-height: 38px;
-  padding: 46px 174px 8px 16px;
+  padding: 46px 174px 32px 16px;
 }
 .programme h3 {
   font-family: "Lato-Bold";
@@ -124,4 +124,40 @@ h2 {
   text-align: center;
   margin: 16px 217px 16px 16px;
   padding: 16px 32px;
+}
+.films article {
+  background: #f6f6f6;
+  font-size: 16px;
+  color: #000000;
+  width: 173px;
+  height: 300px;
+  margin: 12px 0 0 12px;
+}
+.films h3 {
+  font-family: "Lato-Bold";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  padding: 16px 16px 0px;
+}
+.films p {
+  font-family: "Lato-Regular";
+  line-height: 22px;
+  padding: 16px;
+}
+button {
+  background: #000000;
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 24px;
+  width: 136px;
+  height: 56px;
+}
+.container {
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
