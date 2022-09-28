@@ -58,3 +58,17 @@ header {
   background-color: #000000;
   padding: 10px 20px;
 }
+
+nav {
+  padding: 16px 61px 16px 62px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
