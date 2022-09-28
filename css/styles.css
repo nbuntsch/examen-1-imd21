@@ -34,7 +34,7 @@ h2 {
 .article {
   margin-left: 16px;
   background-color: #f6f6f6;
-  border-bottom: 3px solid #783df6;
+  border-bottom: 5px solid #783df6;
   padding-right: 16px;
 }
 
@@ -53,36 +53,36 @@ h3 {
 
 .second-article {
   background-color: black;
-  margin-top: 48px;
-
+  /* margin-top: 48px;
   padding-bottom: 16px;
-  margin-bottom: 2px;
+  margin-bottom: 2px; */
+  width: 390px;
 }
 
 h4 {
   color: white;
   font-size: 28px;
-  margin-left: 16px;
+  /* margin-left: 16px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 16px; */
 }
 .second-article p {
   color: white;
   font-size: 20px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .second-article .button {
   background-color: white;
   color: black;
   font-size: 20px;
-  padding-top: 16px;
+  /* padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
   margin-top: 32px;
   margin-right: 217px;
-  margin-left: 16px;
+  margin-left: 16px; */
 }
 
 .third-article {
