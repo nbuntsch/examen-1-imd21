@@ -90,6 +90,7 @@ h2 {
   margin-bottom: 48px;
   background-color: #f6f6f6;
   box-shadow: 0 5px var(--principal-color);
+  position: relative;
 }
 
 h3 {
@@ -105,6 +106,22 @@ h3 {
 .programme h3,
 p {
   padding: 0 16px 16px 16px;
+}
+
+.card {
+  background-color: var(--principal-color);
+  width: 116px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.card p {
+  padding: 0;
 }
 
 .membership {
