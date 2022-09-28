@@ -123,3 +123,8 @@ main nav a {
   flex-direction: column;
   gap: 16px;
 }
+
+.bfi-membership {
+  background-color: black;
+  color: white;
+}
