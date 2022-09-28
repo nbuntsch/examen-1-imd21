@@ -154,14 +154,15 @@ section.membership p {
   width: 157px;
   padding: 16px 32px;
   margin: 0 0 0 16px;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   font-weight: 700;
   text-align: center;
 }
-a.membership-button {
-  background-color: #ffffff;
-  color: #000000;
+a.films-button {
+  background-color: #000000;
+  color: #ffffff;
+  margin: auto;
 }
 
 div.films-articles {
