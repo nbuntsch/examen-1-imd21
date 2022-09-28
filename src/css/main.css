@@ -170,3 +170,39 @@ h3 {
   padding: 16px 32px;
   margin: 16px;
 }
+
+.films {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.resume {
+  width: 173px;
+  background: #f6f6f6;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.resume h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.resume-content {
+  padding: 16px;
+}
+
+.button-view-all {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 136px;
+  height: 56px;
+  padding: 16px 32px;
+}
