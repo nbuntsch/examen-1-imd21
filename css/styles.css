@@ -3,13 +3,30 @@ html {
   width: 390px;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
 header {
   background-color: black;
 }
 
-header img {
+h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+nav {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 62px;
+  margin-right: 61px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 46px;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
