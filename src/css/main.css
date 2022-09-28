@@ -3,6 +3,10 @@
 // ==================================== */
 
 :root {
+  --black: #000000;
+  --purple: #783DF6;
+  --white: #F6F6F6;
+  --pink: #F9DDE7;
 }
 
 /* ====================================
@@ -42,3 +46,34 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  width: 390px;
+  margin: auto;
+}
+
+/* header */
+
+.logo {
+  background-color: var(--black);
+  padding: 10px 20px;
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
