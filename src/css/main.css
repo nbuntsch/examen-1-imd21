@@ -80,6 +80,15 @@ hr {
   border: solid 2px #000;
 }
 
+.description-article {
+  padding: 16px;
+}
+
+h3,
+h2 {
+  margin-bottom: 16px;
+}
+
 /* header ↓ */
 
 h1 {
@@ -102,6 +111,34 @@ nav ul {
 }
 
 /* main ↓ */
+
+/* main - introduction ↓ */
+
+/* main - presentation ↓ */
+
+.presentation {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+}
+
+.button {
+  background-color: var(--main-background-color);
+  color: var(--main-color);
+  font-family: Lato-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 16px 32px;
+  max-height: 56px;
+  max-width: 157px;
+  margin-top: 32px;
+}
+
+/* main - container-article ↓ */
+
+.button-inversed {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+}
 
 /* footer ↓ */
 
