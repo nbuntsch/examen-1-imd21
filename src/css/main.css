@@ -89,6 +89,7 @@ h2 {
   font-size: 20px;
   margin-bottom: 48px;
   background-color: #f6f6f6;
+  box-shadow: 0 5px var(--principal-color);
 }
 
 h3 {
