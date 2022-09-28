@@ -42,3 +42,12 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header {
+  background-color: #000000;
+}
+
+header img {
+  width: 350px;
+  margin: 10px 20px;
+}
