@@ -134,3 +134,19 @@ p {
   font-weight: 700;
   line-height: 28px;
 }
+
+.button-join-today {
+  background-color: white;
+  color: black;
+  padding: 16px 32px;
+  width: 157px;
+  margin-top: 16px;
+}
+
+.button-join-today a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+}
