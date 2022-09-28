@@ -1,0 +1,85 @@
+/*  fonts ↓
+
+font-family: 'Lato', sans-serif;
+
+*/
+
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --main-color: #000;
+  --secondary-color: #fff;
+  --main-background-color: #fff;
+  --secondary-background-color: #000;
+  --thrid-background-color: #f6f6f6;
+  --fourth-background-color: #f9dde7;
+  --shadow: #783df6;
+  --main-font: "Lato", sans-serif;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 390px;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  display: block;
+
+  margin: 0 auto;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* base ↓ */
+
+body {
+  font-family: var(--main-font);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header ↓ */
+
+nav {
+}
+
+/* main ↓ */
+
+/* footer ↓ */
