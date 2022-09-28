@@ -46,7 +46,7 @@ video {
 // ==================================== */
 
 header h1 {
-  background-color: black;
+  background-color: #000000;
   padding: 10px 20px;
 }
 
@@ -103,6 +103,40 @@ article .article-information h3 {
 article .article-information p {
   font-size: 20px;
   line-height: 28px;
+}
+
+article .membership-information {
+  background-color: #000000;
+  border: 1px solid #979797;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  padding: 16px;
+}
+
+article .membership-information h3 {
+  padding-bottom: 16px;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+article .membership-information p {
+  padding-bottom: 32px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+article .membership-information button {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+article .membership-information button a {
+  text-decoration: none;
 }
 
 /* font-family: 'Lato', sans-serif; */
