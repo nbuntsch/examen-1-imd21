@@ -1,0 +1,227 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  width: 390px;
+  margin: auto;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* header */
+
+header {
+  position: fixed;
+  background-color: white;
+  margin-bottom: 60px;
+  z-index: 2;
+}
+
+.flex-container {
+  display: flex;
+}
+
+header img {
+  background-color: black;
+  width: 390px;
+  padding: 10px 20px;
+}
+
+.nav-header {
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 16px 61px;
+}
+
+.nav-header a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* main */
+/* Expore the programme */
+
+main .bfi-img {
+  margin-top: 116px;
+}
+
+h1 {
+  font-weight: bold;
+  width: 200px;
+  margin: 46px 0 32px 16px;
+  font-size: 36px;
+}
+
+.add-on-img {
+  background-color: #783df6;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px 8px 16px;
+  width: 116px;
+  position: absolute;
+  top: 16px;
+}
+
+article {
+  margin: 0 16px 48px 16px;
+  box-shadow: 0px 6px 0px 0px #783df6;
+  position: relative;
+}
+
+h3 {
+  padding: 16px;
+  font-size: 22px;
+}
+
+article p {
+  padding: 0 16px 16px 16px;
+  font-size: 20px;
+}
+
+/* BFI Membership */
+
+.bfi-container {
+  position: relative;
+}
+
+.bfi-membership {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-bottom: 16px;
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  right: 16px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 16px;
+}
+
+.bfi-membership p {
+  margin: 0 16px 16px 16px;
+  font-size: 20px;
+}
+
+.bfi-membership .membership-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;
+  text-decoration: none;
+  width: 157px;
+  margin: 32px 0 0 16px;
+}
+
+/* Films */
+
+.films-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 16px 16px 0 16px;
+}
+
+.films-container div {
+  width: 173px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.films-container p {
+  margin: 16px;
+  font-size: 16px;
+}
+
+.films-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-align: center;
+  width: 136px;
+  margin: 0 auto 48px auto;
+}
+
+/* footer */
+
+footer {
+  background-color: #f9dde7;
+}
+
+.footer-container {
+  flex-direction: row;
+  padding: 32px 16px 32px 16px;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.footer-column {
+  flex-direction: column;
+}
+
+.footer-column p {
+  font-weight: bold;
+  margin: 12px 0 12px;
+  font-size: 16px;
+}
+
+.footer-column hr {
+  color: black;
+  border: 1.5px solid;
+  width: 173px;
+}
+
+.footer-column a {
+  margin: 12px 0 0 0;
+  font-size: 16px;
+  text-decoration: none;
+}
