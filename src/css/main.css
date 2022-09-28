@@ -164,23 +164,44 @@ article .membership-information button a {
   margin-bottom: 0;
 }
 
-.films article div {
+.films article .information {
   background-color: #f6f6f6;
   font-family: "Lato", sans-serif;
   margin-bottom: 12px;
   padding: 16px;
 }
 
-.films article div h3 {
+.films article .information h3 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   padding-bottom: 16px;
 }
 
-.films article div p {
+.films article .information p {
   font-size: 16px;
   line-height: 22px;
+}
+
+.films .button button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  margin-bottom: 48px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* align-items: center; */
+}
+
+.films button a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 /* .films article .rimini {
