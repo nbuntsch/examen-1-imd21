@@ -135,9 +135,44 @@ p {
   margin: 0 217px 16px 16px;
 }
 
-.membership a {
+button a {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   font-family: "Lato", sans-serif;
+}
+
+.films {
+  margin: 46px 16px 48px 16px;
+}
+
+.films article {
+  background-color: #f6f6f6;
+  width: 173px;
+  margin-bottom: 12px;
+}
+
+.films img {
+  margin-bottom: 16px;
+}
+
+.films h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 0 16px 16px 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px 32px;
+  border: none;
 }
