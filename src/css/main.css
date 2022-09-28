@@ -91,3 +91,13 @@ main nav a {
 .explore {
   padding: 48px 16px;
 }
+
+.explore article {
+  background-color: #f6f6f6;
+}
+
+.programm article {
+  border-bottom: 5px solid #783df6;
+  display: flex;
+  gap: 40px;
+}
