@@ -141,10 +141,6 @@ main article p {
   margin-bottom: 48px;
 }
 
-.change-color {
-  background-color: var(--fourth-background-color);
-}
-
 /* main - presentation ↓ */
 
 .presentation {
@@ -166,9 +162,33 @@ main article p {
 
 /* main - container-article ↓ */
 
+.container-article {
+  margin: 47px 16px;
+}
+
+.container-article article {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-inversed {
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
+}
+
+.container-article p {
+  font-family: Lato-Regular;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.container-article h3 {
+  font-family: Lato-Bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /* footer ↓ */
