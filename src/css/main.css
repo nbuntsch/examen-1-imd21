@@ -1,0 +1,85 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+body {
+  font-family: Lato;
+  background-color: white;
+}
+
+main {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+header {
+  padding-bottom: 46px;
+}
+
+nav {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Lato-Bold;
+  font-size: 36px;
+  color: #000000;
+  line-height: 38px;
+  padding-bottom: 32px;
+}
+
+.strands-article {
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  font-family: Lato-Bold;
+  font-size: 22px;
+  color: #000000;
+  line-height: 24px;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  color: #000000;
+  line-height: 28px;
+}
