@@ -165,16 +165,21 @@ button {
 }
 footer {
   background: #f9dde7;
-  height: 247px;
-}
-
-.about {
-  padding: 32px 16px;
-  width: 173px;
+  display: flex;
 }
 footer h2 {
   font-family: "Lato-Bold";
   font-size: 16px;
   color: #000000;
   line-height: 20px;
+}
+footer a {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+.about {
+  padding: 32px 16px;
+  width: 173px;
 }
