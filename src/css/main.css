@@ -58,6 +58,33 @@ nav {
   font-weight: 700;
 }
 
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  margin: 46px 174px 32px 16px;
+}
+
+.programme {
+  margin: 0px 16px 48px 16px;
+  background-color: #f6f6f6;
+}
+
+.programme h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.programme p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.programme div {
+  padding: 16px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
