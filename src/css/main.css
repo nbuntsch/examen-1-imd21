@@ -76,6 +76,7 @@ h1 {
   color: #000000;
   line-height: 38px;
   padding-bottom: 32px;
+  margin-left: 16px;
 }
 
 .article-container h3 {
@@ -90,8 +91,8 @@ h1 {
 .strands-article {
   background: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   font-size: 20px;
   line-height: 28px;
 }
@@ -99,8 +100,8 @@ h1 {
 .series-article {
   background: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   font-size: 20px;
   line-height: 28px;
 }
@@ -251,22 +252,32 @@ footer {
 
 .intro-festival {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .sponsors {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .access {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .how {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .tickets {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .rectangle-about {
