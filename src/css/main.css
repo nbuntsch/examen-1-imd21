@@ -177,6 +177,12 @@ button a {
   border: none;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 footer {
   background-color: #f9dde7;
   padding: 32px 16px;
