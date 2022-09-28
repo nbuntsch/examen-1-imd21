@@ -5,6 +5,7 @@
 :root {
   --black: #000000;
   --purple: #783DF6;
+  --white: #FFFFFF;
   --cream: #F6F6F6;
   --pink: #F9DDE7;
 }
@@ -78,9 +79,9 @@ body {
   padding: 16px;
 }
 
-/* partie 1 */
+/* main partie 1 */
 
-.firstpart h1 {
+.exploreprogram h1 {
   font-size: 36px;
   font-weight: bold;
   padding: 46px 174px 32px 16px;
@@ -101,4 +102,37 @@ body {
 .program p {
   font-size: 20px;
   padding: 0px 16px 16px 16px;
+}
+
+/* main partie 2 */
+
+.membership {
+  background-color: var(--black);
+  padding-bottom: 16px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 16px;
+  color: var(--white);
+}
+
+.membership p {
+  font-size: 20px;
+  padding: 0px 16px;
+  color: var(--white);
+}
+
+.box  {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  margin: 32px 217px 0px 16px;
+  background-color: var(--white);
+}
+
+.membership a {
+  font-size: 20px;
+  font-weight: bold;
 }
