@@ -51,12 +51,14 @@ body {
 }
 
 header {
-  height: 48px;
-  background-color: #000;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
 }
 
 h1 {
   font-size: initial;
+  background-color: #000000;
 }
 
 header img {
@@ -67,6 +69,7 @@ header nav {
   width: 267px;
   margin: auto;
   margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
 }
@@ -79,7 +82,7 @@ header nav a {
 }
 
 main {
-  margin-top: 51px;
+  padding-top: 99px;
 }
 
 h2 {
@@ -97,6 +100,7 @@ article {
   background-color: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
   margin-bottom: 48px;
+  position: relative;
 }
 
 p {
@@ -135,7 +139,7 @@ h3 {
   line-height: 24px;
   padding: 16px 32px;
   text-decoration: none;
-  margin: 32px 16px 16px;
+  margin: 16px;
   display: inline-block;
 }
 
@@ -190,13 +194,37 @@ footer {
   width: calc(50% - 6px);
 }
 
-.container p {
+.container a {
   font-size: 16px;
   line-height: 20px;
   margin-top: 12px;
   padding: 0;
+  display: block;
+  text-decoration: none;
 }
 
 .footer_title {
   font-family: Lato-Bold;
+}
+
+/* position */
+
+.programme {
+  background: #783df6;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 16px;
+  position: absolute;
+  padding: 8px 16px;
+  top: 16px;
+}
+
+.article {
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  right: 16px;
+  bottom: 49px;
+  background: rgba(0, 0, 0, 0.7);
 }

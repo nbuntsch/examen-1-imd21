@@ -34,12 +34,14 @@ body {
 }
 
 header {
-  height: 48px;
-  background-color: #000;
+  z-index: 999;
+  background-color: #fff;
+  position: fixed;
 }
 
 h1 {
   font-size: initial;
+  background-color: #000;
 }
 
 header img {
@@ -49,7 +51,7 @@ header img {
 header nav {
   width: 267px;
   justify-content: space-between;
-  margin: 16px auto auto;
+  margin: 16px auto;
   display: flex;
 }
 
@@ -61,7 +63,7 @@ header nav a {
 }
 
 main {
-  margin-top: 51px;
+  padding-top: 99px;
 }
 
 h2 {
@@ -78,6 +80,7 @@ section {
 article {
   background-color: #f6f6f6;
   margin-bottom: 48px;
+  position: relative;
   box-shadow: 0 5px #783df6;
 }
 
@@ -113,7 +116,7 @@ h3 {
 
 .button {
   background: #fff;
-  margin: 32px 16px 16px;
+  margin: 16px;
   padding: 16px 32px;
   font-family: Lato-Bold;
   line-height: 24px;
@@ -171,15 +174,34 @@ footer {
   border-top: 3px solid #000;
 }
 
-.container p {
+.container a {
   margin-top: 12px;
   padding: 0;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  display: block;
 }
 
 .footer_title {
   font-family: Lato-Bold;
+}
+
+.programme {
+  color: #fff;
+  background: #783df6;
+  padding: 8px 16px;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.article {
+  background: #000000b3;
+  position: absolute;
+  inset: 48px 16px 49px;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
