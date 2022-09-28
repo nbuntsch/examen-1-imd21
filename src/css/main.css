@@ -61,7 +61,7 @@ nav {
   line-height: 19px;
   padding: 16px 61px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: nowrap;
 }
 
@@ -130,7 +130,6 @@ p {
 
 a {
   text-decoration: none;
-  margin: 16px;
 }
 
 section.membership {
