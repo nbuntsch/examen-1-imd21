@@ -97,3 +97,31 @@ h2 {
 .programme p {
   padding: 0 16px 16px;
 }
+
+.membership {
+  background: #000000;
+  color: #ffffff;
+  line-height: 28px;
+}
+.membership h3 {
+  font-family: "Lato-Bold";
+  font-size: 28px;
+  padding: 16px;
+}
+.membership p {
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  padding: 0 16px;
+}
+.membership a {
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  background: #ffffff;
+  width: 157px;
+  height: 56px;
+  text-align: center;
+  margin: 16px 217px 16px 16px;
+  padding: 16px 32px;
+}
