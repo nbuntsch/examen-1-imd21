@@ -64,12 +64,7 @@ header a {
   font-weight: 700;
   line-height: 19px;
   font-size: 18px;
-  /* padding-right: 16px; */
 }
-
-/* header .venues {
-  padding-right: 0;
-} */
 
 section {
   margin-left: 16px;
@@ -149,10 +144,6 @@ article .membership-information button a {
   padding-bottom: 32px;
 }
 
-/* .films article {
-  max-width: 173px;
-} */
-
 .films .article-films {
   display: flex;
   flex-wrap: wrap;
@@ -192,7 +183,6 @@ article .membership-information button a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  /* align-items: center; */
 }
 
 .films button a {
@@ -204,8 +194,40 @@ article .membership-information button a {
   justify-content: center;
 }
 
-/* .films article .rimini {
-  padding-right: 12px;
-} */
+footer {
+  background-color: #f9dde7;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 32px 16px;
+}
+
+footer div {
+  border-top: 3px solid #000000;
+  width: 173px;
+  display: flex;
+  flex-direction: column;
+  line-height: 12px;
+}
+
+footer h3 {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-size: 16;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 12px;
+}
+
+footer .last-a {
+  padding-bottom: 0;
+}
 
 /* font-family: 'Lato', sans-serif; */
