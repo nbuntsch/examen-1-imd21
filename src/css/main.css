@@ -1,0 +1,263 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+/* :root {
+} */
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 390px;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+header h1 {
+  background-color: #000000;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+header nav {
+  text-align: center;
+  padding: 16px 61px 16px 62px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+header a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+section {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.programms h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  padding-top: 46px;
+  padding-bottom: 32px;
+}
+
+article {
+  margin-bottom: 48px;
+}
+
+article .article-information {
+  font-family: "Lato", sans-serif;
+  background-color: #f6f6f6;
+  box-shadow: 0 5px #783df6;
+  padding: 16px;
+}
+
+article .article-information h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 16px;
+}
+
+article .article-information p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.strands {
+  position: relative;
+}
+
+.series {
+  position: relative;
+}
+
+.side-widget {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #783df6;
+  color: #ffffff;
+  padding: 8px 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.BFI-membership {
+  position: relative;
+}
+
+article .membership-information {
+  font-family: "Lato", sans-serif;
+  background-color: #000000bf;
+  color: #ffffff;
+  padding: 16px;
+  position: absolute;
+  top: 48px;
+  bottom: 49px;
+  right: 16px;
+  left: 16px;
+}
+
+article .membership-information h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  padding-bottom: 16px;
+}
+
+article .membership-information p {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 32px;
+}
+
+article .membership-information button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+}
+
+article .membership-information button a {
+  text-decoration: none;
+}
+
+.films h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  padding-bottom: 32px;
+}
+
+.films .article-films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films article {
+  width: 173px;
+  margin-bottom: 0;
+}
+
+.films article .information {
+  font-family: "Lato", sans-serif;
+  background-color: #f6f6f6;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.films article .information h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.films article .information p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.films .button button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  margin-bottom: 48px;
+}
+
+.films button a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  background-color: #f9dde7;
+  padding: 32px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer div {
+  line-height: 12px;
+  border-top: 3px solid #000000;
+  width: 173px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 16;
+  line-height: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+footer a {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+footer .last-a {
+  padding-bottom: 0;
+}
