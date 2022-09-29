@@ -129,7 +129,7 @@ footer a {
   line-height: 24px;
 }
 
-.programm article {
+hr {
   border-bottom: 5px solid #783df6;
 }
 
@@ -141,6 +141,10 @@ footer a {
 
 .explore {
   padding: 48px 16px;
+}
+
+.programm {
+  padding-bottom: 43px;
 }
 
 .explore article {
