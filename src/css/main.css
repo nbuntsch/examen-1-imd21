@@ -49,6 +49,9 @@ html {
 
 header {
   background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 header img {
@@ -65,6 +68,10 @@ nav {
   justify-content: space-around;
   flex-wrap: nowrap;
   background-color: #ffffff;
+  position: sticky;
+  top: 48px;
+  width: 390px;
+  z-index: 1;
 }
 
 footer {
@@ -74,6 +81,7 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   padding: 32px 16px;
+  margin: 48px 0 0;
 }
 
 footer section {
@@ -95,7 +103,7 @@ footer a {
 }
 
 section {
-  padding: 47px 16px;
+  padding: 47px 16px 0;
 }
 
 article {
@@ -136,10 +144,25 @@ a {
 }
 
 section.membership {
+  padding: 0;
+  position: relative;
+}
+
+div.membership-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 0 0 16px;
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  right: 16px;
+}
+
+/* section.membership {
   background-color: #000000;
   color: #ffffff;
   padding: 0 0 16px;
-}
+} */
 
 section.membership h2.membership-title {
   font-size: 28px;
@@ -147,6 +170,7 @@ section.membership h2.membership-title {
   padding: 16px 16px 0;
   margin: 0;
 }
+
 section.membership p {
   margin: 0 0 16px;
 }
