@@ -202,7 +202,6 @@ footer {
   display: flex;
   align-items: baseline;
   align-content: stretch;
-  justify-content: space-evenly;
 }
 footer h2 {
   font-family: "Lato-Bold";
@@ -221,7 +220,7 @@ footer a {
   padding-top: 12px;
 }
 .about {
-  padding: 32px 16px;
+  margin: 32px 16px;
   width: 173px;
 }
 .tickets {
