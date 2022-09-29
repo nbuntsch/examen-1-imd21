@@ -63,9 +63,6 @@ body {
 .logo {
   background-color: var(--black);
   padding: 10px 20px;
-  position: fixed;
-  top: 0%;
-  left: 0%;
 }
 
 .nav a {
@@ -78,7 +75,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 64px 0px 16px 0px;
+  padding: 16px 0px;
 }
 
 /* main partie 1 */
