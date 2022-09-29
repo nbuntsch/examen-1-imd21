@@ -226,3 +226,13 @@ footer p {
   font-size: 16px;
   line-height: 20px;
 }
+
+/* position ↓ */
+
+header {
+  position: sticky;
+}
+
+nav {
+  background-color: var(--main-background-color);
+}
