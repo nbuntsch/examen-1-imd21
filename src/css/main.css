@@ -126,11 +126,21 @@ article .article-information p {
   position: absolute;
 }
 
+.under-layer {
+  position: relative;
+  z-index: -1;
+}
+
 article .membership-information {
-  background-color: #000000;
+  background-color: #00000098;
   color: #ffffff;
   font-family: "Lato", sans-serif;
   padding: 16px;
+  position: absolute;
+  top: 48px;
+  bottom: 49px;
+  right: 16px;
+  left: 16px;
 }
 
 article .membership-information h3 {
