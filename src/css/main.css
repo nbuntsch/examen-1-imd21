@@ -62,11 +62,11 @@ header nav {
 }
 
 header a {
-  text-decoration: none;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  line-height: 19px;
   font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
 }
 
 section {
@@ -88,10 +88,10 @@ article {
 }
 
 article .article-information {
+  font-family: "Lato", sans-serif;
   background-color: #f6f6f6;
   box-shadow: 0 5px #783df6;
   padding: 16px;
-  font-family: "Lato", sans-serif;
 }
 
 article .article-information h3 {
@@ -115,26 +115,25 @@ article .article-information p {
 }
 
 .side-widget {
-  padding: 8px 16px;
-  background-color: #783df6;
-  color: #ffffff;
   font-family: "Lato", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
-  top: 16px;
+  background-color: #783df6;
+  color: #ffffff;
+  padding: 8px 16px;
   position: absolute;
+  top: 16px;
 }
 
-.under-layer {
+.BFI-membership {
   position: relative;
-  z-index: -1;
 }
 
 article .membership-information {
-  background-color: #00000098;
-  color: #ffffff;
   font-family: "Lato", sans-serif;
+  background-color: #000000bf;
+  color: #ffffff;
   padding: 16px;
   position: absolute;
   top: 48px;
@@ -144,25 +143,25 @@ article .membership-information {
 }
 
 article .membership-information h3 {
-  padding-bottom: 16px;
+  font-weight: 700;
   font-size: 28px;
   line-height: 28px;
-  font-weight: 700;
+  padding-bottom: 16px;
 }
 
 article .membership-information p {
-  padding-bottom: 32px;
   font-size: 20px;
   line-height: 28px;
+  padding-bottom: 32px;
 }
 
 article .membership-information button {
-  padding: 16px 32px;
-  background-color: #ffffff;
-  border: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  background-color: #ffffff;
+  border: none;
+  padding: 16px 32px;
 }
 
 article .membership-information button a {
@@ -189,16 +188,16 @@ article .membership-information button a {
 }
 
 .films article .information {
-  background-color: #f6f6f6;
   font-family: "Lato", sans-serif;
-  margin-bottom: 12px;
+  background-color: #f6f6f6;
   padding: 16px;
+  margin-bottom: 12px;
 }
 
 .films article .information h3 {
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
   padding-bottom: 16px;
 }
 
@@ -208,14 +207,14 @@ article .membership-information button a {
 }
 
 .films .button button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   background-color: #000000;
   color: #ffffff;
   border: none;
   padding: 16px 32px;
   margin-bottom: 48px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
 }
 
 .films button a {
@@ -228,39 +227,37 @@ article .membership-information button a {
 }
 
 footer {
-  background-color: #f9dde7;
   font-family: "Lato", sans-serif;
+  background-color: #f9dde7;
+  padding: 32px 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 32px 16px;
 }
 
 footer div {
+  line-height: 12px;
   border-top: 3px solid #000000;
   width: 173px;
   display: flex;
   flex-direction: column;
-  line-height: 12px;
 }
 
 footer h3 {
-  padding-bottom: 12px;
-  padding-top: 12px;
-  font-size: 16;
   font-weight: 700;
+  font-size: 16;
   line-height: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 footer a {
-  text-decoration: none;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
   padding-bottom: 12px;
 }
 
 footer .last-a {
   padding-bottom: 0;
 }
-
-/* font-family: 'Lato', sans-serif; */
