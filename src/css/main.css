@@ -1,0 +1,245 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 390px;
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.container-fixed {
+  position: fixed;
+  max-width: 390px;
+  z-index: 3;
+}
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 16px 62px;
+  background-color: white;
+}
+
+.about-img {
+  padding-top: 99px;
+}
+
+.container-big-article {
+  padding: 46px 16px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.container-big-article h1 {
+  padding-bottom: 31px;
+}
+
+.about-big-article {
+  background-color: #F6F6F6;
+  box-shadow: 0 5px 0 0 #783DF6;
+  position: relative;
+}
+
+.about-big-article h2 {
+  padding: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.about-big-article p {
+  padding: 0 16px 16px 16px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.about-big-article span {
+  background-color: #783DF6;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 700;
+  line-height: 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.first-about-big-container {
+  margin-bottom: 48px;
+}
+
+.container-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+}
+
+.container-buy h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 16px;
+}
+
+.container-buy p {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0 16px 16px 16px;
+}
+
+.container-buy .button {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 32px;
+  margin: 16px;
+}
+
+.container-buy img {
+  z-index: 1;
+  position: relative;
+}
+
+.container-buy .about-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 358px;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  position: absolute;
+  z-index: 2;
+  margin: 48px 16px;
+}
+
+.container-all-little-article {
+  padding: 48px 16px 0 16px;
+}
+
+.container-all-little-article h1 {
+  padding-bottom: 32px;
+}
+
+.container-little-article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.about-little-article {
+  background-color: #F6F6F6;
+  margin-bottom: 12px;
+}
+
+.container-little-article h4 {
+  font-weight: 700;
+  line-height: 20px;
+  padding: 16px;
+}
+
+.container-little-article p {
+  line-height: 22px;
+  padding: 0 16px 16px 16px;
+}
+
+.container-little-article article {
+  width: 173px;
+}
+
+.button {
+  margin: 0 110px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 24px;
+}
+
+footer p {
+  border-top: solid 3px black;
+  font-weight: 700;
+}
+
+footer a,
+p {
+  padding-top: 12px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F9DDE7;
+  margin-top: 48px;
+  padding: 32px 16px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  max-width: 173px;
+}
