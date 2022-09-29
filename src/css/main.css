@@ -81,7 +81,7 @@ a {
   line-height: 28px;
   margin: 0px 16px 48px;
 }
-h2 {
+main h2 {
   font-family: "Lato-Bold";
   font-size: 36px;
   color: #000000;
@@ -166,20 +166,29 @@ button {
 footer {
   background: #f9dde7;
   display: flex;
+  align-items: baseline;
+  align-content: stretch;
 }
 footer h2 {
   font-family: "Lato-Bold";
   font-size: 16px;
   color: #000000;
   line-height: 20px;
+  border-top: solid #000000;
+  padding-top: 12px;
 }
 footer a {
   font-family: "Lato-Regular";
   font-size: 16px;
   color: #000000;
   line-height: 20px;
+  text-align: left;
+  padding-top: 12px;
 }
 .about {
   padding: 32px 16px;
+  width: 173px;
+}
+.tickets {
   width: 173px;
 }
