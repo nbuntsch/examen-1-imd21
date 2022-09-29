@@ -84,7 +84,7 @@ body {
 }
 
 header {
-  margin-bottom: 46px;
+  margin-bottom: 16px;
 }
 
 h1 {
@@ -101,7 +101,6 @@ h1 {
   font-size: 18px;
   line-height: 19px;
   gap: 16px;
-  margin-bottom: 16px;
 }
 
 a {
@@ -113,13 +112,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 46px 16px 0px;
 }
 
 h2 {
   font-size: 36px;
   font-weight: bold;
   line-height: 38px;
+  margin-bottom: 32px;
 }
 
 h3 {
@@ -131,8 +131,7 @@ h3 {
 .programme {
   background: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
-  margin-bottom: 16px;
-  margin-top: 32px;
+  margin-bottom: 48px;
 }
 
 .programme p {
@@ -149,11 +148,11 @@ h3 {
   color: white;
   font-size: 20px;
   line-height: 28px;
-  height: 467px;
+  margin-bottom: 32px;
 }
 
 .membership-content {
-  margin: 16px;
+  padding: 16px;
 }
 
 .membership h2 {
@@ -168,7 +167,15 @@ h3 {
   width: 157px;
   height: 56px;
   padding: 16px 32px;
-  margin: 16px;
+  margin-top: 32px;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 16px;
+  justify-content: center;
+  align-content: center;
 }
 
 .films {
@@ -178,7 +185,6 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
-  margin: 16px 0;
 }
 
 .resume {
@@ -213,7 +219,6 @@ footer {
   justify-content: center;
   padding: 32px 16px;
   gap: 12px;
-  margin-top: 48px;
 }
 
 .credits {
@@ -221,6 +226,6 @@ footer {
   width: 173px;
   text-decoration: none;
   list-style: none;
-  line-height: 20px;
+  line-height: 32px;
   border-top: solid 3px black;
 }
