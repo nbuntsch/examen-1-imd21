@@ -55,8 +55,12 @@ body {
 }
 
 header {
-  background-color: #000000;
+  position: fixed;
+}
+
+h1 {
   padding: 10px 20px;
+  background-color: #000000;
 }
 
 nav {
@@ -67,10 +71,15 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
+}
+
+.introduction {
+  padding-top: 115px;
 }
 
 h2 {
