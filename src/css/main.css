@@ -1,0 +1,228 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+html {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+h1 {
+  background: #000000;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #ffffff;
+  height: 52px;
+  padding: 16px 62px;
+}
+.intro-img {
+  padding-top: 100px;
+}
+a {
+  font-family: "Lato-Bold";
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  line-height: 19px;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 16px;
+  justify-content: space-between;
+  display: block;
+}
+
+.programme article {
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  color: #000000;
+  line-height: 24px;
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  color: #000000;
+  line-height: 28px;
+  margin: 0px 16px 48px;
+  position: relative;
+}
+.purple-box {
+  background: #783df6;
+  font-family: "Lato-Bold";
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 16px;
+  width: 116px;
+  position: absolute;
+  height: 32px;
+  top: 16px;
+}
+h4 {
+  padding: 8px 16px;
+}
+main h2 {
+  font-family: "Lato-Bold";
+  font-size: 36px;
+  color: #000000;
+  line-height: 38px;
+  padding: 46px 174px 32px 16px;
+}
+.programme h3 {
+  font-family: "Lato-Bold";
+  font-size: 22px;
+  padding: 16px;
+}
+
+.programme p {
+  padding: 0 16px 16px;
+}
+
+.membership {
+  background: #000000;
+  color: #ffffff;
+  line-height: 28px;
+  position: relative;
+}
+.membership h3 {
+  font-family: "Lato-Bold";
+  font-size: 28px;
+  padding: 16px;
+}
+.membership-info {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 48px;
+  left: 16px;
+  right: 16px;
+  bottom: 49px;
+}
+.membership p {
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  padding: 0 16px;
+}
+.membership a {
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  background: #ffffff;
+  width: 157px;
+  height: 56px;
+  text-align: center;
+  margin: 32px 217px 0px 16px;
+  padding: 16px 32px;
+}
+.container {
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.films article {
+  background: #f6f6f6;
+  font-size: 16px;
+  color: #000000;
+  width: 173px;
+  height: 300px;
+  margin: 12px 0 0 12px;
+}
+.films h3 {
+  font-family: "Lato-Bold";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  padding: 16px 16px 0px;
+}
+.films p {
+  font-family: "Lato-Regular";
+  line-height: 22px;
+  padding: 16px;
+}
+button {
+  background: #000000;
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 24px;
+  width: 136px;
+  height: 56px;
+  border: none;
+  margin: 12px 126px 48px 128px;
+}
+footer {
+  background: #f9dde7;
+  display: flex;
+  align-items: baseline;
+  align-content: stretch;
+}
+footer h2 {
+  font-family: "Lato-Bold";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  border-top: solid #000000;
+  padding-top: 12px;
+}
+footer a {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 12px;
+}
+.about {
+  margin: 32px 16px;
+  width: 173px;
+}
+.tickets {
+  width: 173px;
+}
