@@ -47,18 +47,22 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
 body {
   font-family: Lato;
   background-color: white;
 }
 
-header {
-  padding-bottom: 46px;
-}
-
 .nav {
   font-family: Lato-Bold;
   font-size: 18px;
+  line-height: 19px;
   color: #000000;
   text-align: center;
   padding-bottom: 16px;
@@ -77,15 +81,43 @@ h1 {
   line-height: 38px;
   padding-bottom: 32px;
   margin-left: 16px;
+  padding-top: 46px;
+}
+
+.programme-window-strands {
+  background: #783df6;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 16px;
+  padding: 8px 16px;
+  position: absolute;
+  bottom: 330px;
+  left: 16px;
+}
+
+.programme-window-series {
+  background: #783df6;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 16px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 912px;
+  left: 16px;
 }
 
 .article-container h3 {
   margin: 16px 16px;
+  font-size: 22px;
 }
 
 .article-container p {
   margin: 16px 16px;
   padding-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .strands-article {
@@ -107,7 +139,7 @@ h1 {
 }
 
 .article-container {
-  padding-bottom: 48px;
+  padding-bottom: 45px;
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -149,6 +181,11 @@ a {
   max-width: 170px;
   margin: 16px;
   font-family: Lato-Bold;
+}
+
+.button.is-active {
+  background: #783df6;
+  color: #ffffff;
 }
 
 .film-section {
@@ -236,7 +273,7 @@ footer {
 }
 
 .element-container {
-  padding-top: 47px;
+  padding-top: 32px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -293,3 +330,7 @@ footer {
   max-width: 170px;
   color: #f9dde7;
 }
+/* hr{
+  color: black;
+  line-height: 3px;
+} */
