@@ -1,0 +1,221 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+body {
+  font-family: lato, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+h1 {
+  background: black;
+  padding: 10px 20px;
+}
+
+.distribution {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  padding: 16px;
+  gap: 16px;
+}
+
+.distribution,
+.films {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 99px;
+}
+
+.exploring {
+  width: 358px;
+  margin: 46px 16px 0px;
+}
+
+.exploring,
+.highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 38px;
+  margin-bottom: 32px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 38px;
+  margin-bottom: 16px;
+}
+
+.programme {
+  background: #f6f6f6;
+  box-shadow: 0 5px 0 0 #783df6;
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.programme p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.programme-content {
+  margin: 16px;
+}
+
+.programme-button {
+  background: #783df6;
+  font-weight: Bold;
+  line-height: 16px;
+  padding: 8px 16px;
+  width: 116px;
+  top: 16px;
+}
+
+.programme-button,
+.membership-content {
+  color: #ffffff;
+  position: absolute;
+}
+
+.membership {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.membership-content {
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  line-height: 28px;
+  width: 358px;
+  top: 48px;
+  left: 16px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.join-button {
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  width: 157px;
+  height: 56px;
+  padding: 16px 32px;
+  margin-top: 32px;
+}
+
+.highlights {
+  margin: 48px 16px;
+  align-content: center;
+}
+
+.films {
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.resume {
+  width: 173px;
+  background: #f6f6f6;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.resume h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.resume-content {
+  padding: 16px;
+}
+
+.button-view-all {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 136px;
+  height: 56px;
+  padding: 16px 32px;
+}
+
+footer {
+  background: #f9dde7;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+  gap: 12px;
+}
+
+.credits {
+  padding-top: 12px;
+  width: 173px;
+  line-height: 32px;
+  border-top: solid 3px black;
+}
