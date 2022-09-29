@@ -1,0 +1,246 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --principal-color: #783df6;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  max-width: 390px;
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+h1 {
+  padding: 10px 20px;
+  background-color: #000000;
+}
+
+nav {
+  padding: 16px 61px 16px 62px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.introduction {
+  padding-top: 115px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 38px;
+}
+
+.programme {
+  margin: 46px 16px 48px 16px;
+}
+
+.programme article {
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 48px;
+  background-color: #f6f6f6;
+  box-shadow: 0 5px var(--principal-color);
+  position: relative;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.programme img {
+  margin-bottom: 16px;
+}
+
+.programme h3,
+p {
+  padding: 0 16px 16px;
+}
+
+.card {
+  background-color: var(--principal-color);
+  width: 116px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.card p {
+  padding: 0;
+}
+
+.membership {
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 20px;
+  position: relative;
+}
+
+.membership h2 {
+  font-size: 28px;
+  margin: 16px;
+}
+
+.membership p {
+  margin: 0 16px 32px;
+  padding: 0;
+}
+
+.membership button {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border: none;
+  margin: 0 185px 16px 16px;
+}
+
+button a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.membership-container {
+  position: absolute;
+  width: 358px;
+  background: rgba(0, 0, 0, 0.7);
+  top: 48px;
+  left: 16px;
+}
+
+.films {
+  margin: 46px 16px 48px 16px;
+}
+
+.films article {
+  background-color: #f6f6f6;
+  width: 173px;
+  margin-bottom: 12px;
+}
+
+.films img {
+  margin-bottom: 16px;
+}
+
+.films h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 0 16px 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px 32px;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h4 {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+footer {
+  background-color: #f9dde7;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 20px;
+}
+
+footer div {
+  width: 173px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer hr {
+  background-color: #000000;
+  height: 3px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+footer a {
+  margin-top: 12px;
+}
