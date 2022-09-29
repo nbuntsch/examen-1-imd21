@@ -1,0 +1,255 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Bold.woff2);
+  font-weight: 700;
+}
+html {
+  background-color: black;
+}
+body {
+  width: 390px;
+  margin: auto;
+  font-family: "Lato";
+  font-weight: 400;
+  background-color: white;
+}
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin-top: 99px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+main nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 61px 16px 62px;
+}
+
+main nav a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f9dde7;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+footer section {
+  width: 50%;
+  border-top: 3px solid black;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer h2 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer a {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.line-top {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.explore h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  padding: 0 158px 32px 0;
+}
+
+.programm h3 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+hr {
+  border-bottom: 5px solid #783df6;
+}
+
+.programm .container {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.explore {
+  padding: 48px 16px;
+}
+
+.programm {
+  padding-bottom: 43px;
+}
+
+.explore article {
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.text {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tag {
+  color: white;
+  background-color: #783df6;
+  padding: 8px 16px;
+  width: 116px;
+  position: absolute;
+  top: 16px;
+}
+
+.tag p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.bfi-membership {
+  background-color: black;
+  color: white;
+}
+
+.bfi-membership h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.button-join-today {
+  background-color: white;
+  color: black;
+  padding: 16px 32px;
+  width: 157px;
+  margin-top: 16px;
+}
+
+.button-join-today a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.films h2 {
+  padding-bottom: 20px;
+}
+
+.films h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.films article {
+  width: 173px;
+}
+
+.films p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.button-view-all {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  width: 136px;
+  margin: auto;
+}
+
+.button-view-all a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+}
