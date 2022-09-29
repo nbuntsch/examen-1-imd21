@@ -43,42 +43,6 @@ video {
 // base rules
 // ==================================== */
 
-/* Lato Italic
-
-font-family: lato, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Lato Bold Italic
-
-font-family: lato, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;
-
-
-Lato Bold
-
-font-family: lato, sans-serif;
-
-font-weight: 700;
-
-font-style: normal;
-
-
-Lato Regular
-
-font-family: lato, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
- */
-
 body {
   font-family: lato, sans-serif;
 }
@@ -96,14 +60,18 @@ h1 {
 }
 
 .distribution {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   font-weight: bold;
   font-size: 18px;
   line-height: 19px;
   padding: 16px;
   gap: 16px;
+}
+
+.distribution,
+.films {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 a {
@@ -116,10 +84,14 @@ main {
 
 .exploring {
   width: 358px;
+  margin: 46px 16px 0px;
+}
+
+.exploring,
+.highlights {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 46px 16px 0px;
 }
 
 h2 {
@@ -154,12 +126,16 @@ h3 {
 .programme-button {
   background: #783df6;
   font-weight: Bold;
-  color: #ffffff;
   line-height: 16px;
   padding: 8px 16px;
   width: 116px;
-  position: absolute;
   top: 16px;
+}
+
+.programme-button,
+.membership-content {
+  color: #ffffff;
+  position: absolute;
 }
 
 .membership {
@@ -170,11 +146,9 @@ h3 {
 .membership-content {
   padding: 16px;
   background: rgba(0, 0, 0, 0.7);
-  color: white;
   font-size: 20px;
   line-height: 28px;
   width: 358px;
-  position: absolute;
   top: 48px;
   left: 16px;
 }
@@ -195,18 +169,12 @@ h3 {
 }
 
 .highlights {
-  display: flex;
-  flex-direction: column;
   margin: 48px 16px;
-  justify-content: center;
   align-content: center;
 }
 
 .films {
   margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
 }
@@ -248,8 +216,6 @@ footer {
 .credits {
   padding-top: 12px;
   width: 173px;
-  text-decoration: none;
-  list-style: none;
   line-height: 32px;
   border-top: solid 3px black;
 }
