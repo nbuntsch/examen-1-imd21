@@ -87,6 +87,7 @@ header {
   background-color: #ffffff;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 
 h1 {
@@ -138,6 +139,7 @@ h3 {
   background: #f6f6f6;
   box-shadow: 0 5px 0 0 #783df6;
   margin-bottom: 48px;
+  position: relative;
 }
 
 .programme p {
@@ -149,16 +151,32 @@ h3 {
   margin: 16px;
 }
 
+.programme-button {
+  background: #783df6;
+  font-weight: Bold;
+  color: #ffffff;
+  line-height: 16px;
+  padding: 8px 16px;
+  width: 116px;
+  position: absolute;
+  top: 16px;
+}
+
 .membership {
-  background: #000000;
-  color: white;
-  font-size: 20px;
-  line-height: 28px;
   margin-bottom: 32px;
+  position: relative;
 }
 
 .membership-content {
   padding: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  width: 358px;
+  position: absolute;
+  top: 48px;
+  left: 16px;
 }
 
 .membership h2 {
