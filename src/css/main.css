@@ -89,7 +89,7 @@ footer section {
   flex-flow: column wrap;
   border-top: #000000 solid 3px;
   padding: 0;
-  margin: 6px;
+  margin: 0 6px;
 }
 
 footer p {
