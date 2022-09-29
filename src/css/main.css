@@ -50,7 +50,7 @@ video {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  padding: 20px 10px;
+  padding: 11px 10px;
 }
 
 header {
@@ -61,11 +61,12 @@ nav {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
-  padding: 16px 0px;
+  padding: 14px 0px;
 }
 
 nav a {
-  padding: 9px;
+  padding: 7px;
+  font-size: 18px;
 }
 
 .cover {
@@ -81,23 +82,26 @@ main {
 
 h1 {
   font-size: 36px;
-  padding-bottom: 32px;
+  padding-bottom: 30px;
+  line-height: 1.1;
 }
 
 main h2 {
-  padding: 19px 0;
+  padding: 11px 0;
+  font-size: 22px;
 }
 
 figcaption {
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .programme {
   background-color: #f6f6f6;
   border: solid 1px #979797;
   border-bottom: solid 6px #783df6;
-  padding: 0 16px 16px;
-  margin-bottom: 46px;
+  padding: 0 16px 14px;
+  margin-bottom: 43px;
 }
 
 .bfi-membership {
@@ -107,29 +111,65 @@ figcaption {
   color: white;
   padding: 0 16px 16px;
 }
+.bfi-membership p {
+  line-height: 1.4;
+}
 
 .bfi-membership h2 {
   font-size: 28px;
+  padding: 12px 0 14px;
   font-weight: bold;
 }
 
-.bfi-membership nav {
+.join-today {
   background-color: white;
   color: black;
-  margin: 32px 217px 0 0;
+  margin: 30px 201px 0 0;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
 }
 
-.article-films {
+article h2 {
+  padding: 44px 0 28px 16px;
+  font-size: 36px;
+}
+
+.film {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #f6f6f6;
-  justify-content: flex-start;
-  font-size: 19px 16px 16px;
+  width: 45%;
+}
+
+.film h3 {
+  padding: 16px;
+  font-size: 16px;
+}
+
+.article-films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 16px;
+  column-gap: 12px;
 }
 
 .film figcaption {
-  padding: 16px;
+  padding: 0 16px 16px 16px;
+  font-size: 16px;
+}
+
+.view-all-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 12px 126px 48px;
+  text-align: center;
+  padding: 16px 32px;
 }
 
 footer {
