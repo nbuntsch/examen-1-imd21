@@ -131,17 +131,14 @@ p {
   position: relative;
 }
 
-.membership img {
-  height: 345px;
-}
-
 .membership h2 {
   font-size: 28px;
   margin: 0 0 16px 0;
 }
 
 .membership p {
-  padding: 0 0 32px 0;
+  margin: 0 0 32px 0;
+  padding: 0;
 }
 
 .membership button {
@@ -160,7 +157,6 @@ button a {
 .membership-container {
   position: absolute;
   width: 358px;
-  height: 248px;
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 48px;
