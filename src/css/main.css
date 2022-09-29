@@ -159,6 +159,7 @@ hr {
 
 .explore article {
   background-color: #f6f6f6;
+  position: relative;
 }
 
 .text {
@@ -166,6 +167,21 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.tag {
+  color: white;
+  background-color: #783df6;
+  padding: 8px 16px;
+  width: 116px;
+  position: absolute;
+  top: 16px;
+}
+
+.tag p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
 .bfi-membership {
