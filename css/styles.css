@@ -8,6 +8,7 @@ body {
 }
 header {
   background-color: black;
+  width: 390px;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  width: 390px;
 }
 
 nav {
@@ -22,9 +24,7 @@ nav {
   margin-bottom: 16px;
   margin-left: 62px;
   margin-right: 61px;
-  display: flex;
-  /* justify-content: around;
-  text-align: center; */
+  font-size: 18px;
 }
 
 h2 {
@@ -57,7 +57,7 @@ h3 {
 .second-article {
   background-color: black;
   margin-top: 48px;
-  padding-bottom: 16px;
+  padding-bottom: 10px;
   margin-bottom: 2px;
   width: 390px;
 }
@@ -86,13 +86,26 @@ h4 {
   margin-top: 32px;
   margin-right: 217px;
   margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.third-part {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .third-article {
   margin-left: 16px;
   background-color: #f6f6f6;
+  margin-bottom: 12px;
+  width: 45%;
 }
 
+.third-article img {
+  width: 100%;
+}
 h5 {
   margin-top: 16px;
   margin-left: 16px;
@@ -111,7 +124,6 @@ h5 {
   background-color: black;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-top: 12px;
   margin-left: 128px;
   margin-right: 126px;
   padding-left: 32px;
@@ -119,20 +131,31 @@ h5 {
   margin-bottom: 48px;
 }
 
-footer {
+.footer-part {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #f9dde7;
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
 }
 
-footer p {
+.footer-article {
   margin-left: 16px;
+  margin-bottom: 12px;
+  width: 173px;
+}
+
+.footer-article p {
+  margin-left: 16px;
+  margin-right: 16px;
   font-size: 16px;
+  flex-direction: row;
 }
 
 footer hr {
   border: 2px solid black;
   margin-bottom: 12px;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
