@@ -148,6 +148,17 @@ main article p {
   color: var(--secondary-color);
 }
 
+.presentation p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.presentation h2 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
 .button {
   background-color: var(--main-background-color);
   color: var(--main-color);
@@ -199,6 +210,7 @@ main article p {
 
 footer {
   background-color: var(--fourth-background-color);
+  height: 247px;
   padding: 32px 16px;
 }
 
@@ -206,9 +218,13 @@ footer {
   display: flex;
 }
 
+.container-column p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
 footer .column-footer-1,
 footer .column-footer-2 {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -218,13 +234,14 @@ footer hr {
   border: 2px solid var(--secondary-background-color);
 }
 
-h4 {
-  padding: 12px 0;
-}
-
 footer p {
   font-size: 16px;
   line-height: 20px;
+}
+
+footer li,
+footer h4 {
+  margin: 7.5px 0;
 }
 
 /* position ↓ */
@@ -268,6 +285,6 @@ nav {
   position: absolute;
   background: rgba(0, 0, 0, 0.7);
   width: 358px;
-  height: 258px;
+  height: 248px;
   margin: 48px 16px;
 }
