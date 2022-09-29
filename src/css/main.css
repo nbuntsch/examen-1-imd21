@@ -78,7 +78,8 @@ main nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px 60px;
+  gap: 16px;
+  padding: 16px 61px 16px 62px;
 }
 
 main nav a {
@@ -112,6 +113,7 @@ footer h2 {
 
 footer a {
   font-size: 16px;
+  line-height: 20px;
   text-decoration: none;
 }
 
@@ -119,7 +121,7 @@ footer a {
   font-size: 36px;
   font-weight: 700;
   line-height: 38px;
-  padding: 0 160px 30px 0;
+  padding: 0 158px 32px 0;
 }
 
 .programm h3 {
@@ -134,7 +136,7 @@ footer a {
 .programm .container {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 43px;
 }
 
 .explore {
@@ -184,6 +186,16 @@ footer a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.films h2 {
+  padding-bottom: 20px;
+}
+
+.films h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
 }
 
 .films article {
