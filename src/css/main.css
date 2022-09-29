@@ -102,6 +102,7 @@ article {
   background-color: #f6f6f6;
   margin-bottom: 48px;
   box-shadow: 0 5px 0 0 #783df6;
+  position: relative;
 }
 
 article img {
@@ -157,6 +158,8 @@ section.membership p {
   margin: 0 0 0 16px;
   background-color: #ffffff;
   color: #000000;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
   text-align: center;
 }
@@ -165,6 +168,19 @@ a.films-button {
   background-color: #000000;
   color: #ffffff;
   margin: auto;
+}
+
+a.programmebutton {
+  background-color: #783df6;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: auto;
 }
 
 div.films-articles {
