@@ -176,6 +176,7 @@ h5 {
   padding-bottom: 32px;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 32px;
 }
 
 div a {
@@ -191,7 +192,8 @@ div a {
   flex-direction: column;
   max-width: 173px;
   height: 183px;
-  padding: 32px 6px 32px 6px;
+  padding: 0 6px 32px 6px;
+  border-top: solid black 3px;
 }
 
 /* ====================================
