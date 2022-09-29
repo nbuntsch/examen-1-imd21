@@ -1,0 +1,212 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+  --black: #000000;
+  --purple: #783DF6;
+  --white: #FFFFFF;
+  --cream: #F6F6F6;
+  --pink: #F9DDE7;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+html {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  width: 390px;
+  margin: auto;
+}
+
+/* header */
+
+.logo {
+  background-color: var(--black);
+  padding: 10px 20px;
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 0px;
+}
+
+/* main partie 1 */
+
+.exploreprogram h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 46px 174px 32px 16px;
+}
+
+.program {
+  margin: 0px 16px 48px 16px;
+  background: var(--cream);
+  box-shadow: 0 5px 0 0 var(--purple);
+}
+
+.program h3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.program p {
+  font-size: 20px;
+  padding: 0px 16px 16px 16px;
+}
+
+/* main partie 2 */
+
+.membership {
+  background-color: var(--black);
+  padding-bottom: 16px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 16px;
+  color: var(--white);
+}
+
+.membership p {
+  font-size: 20px;
+  padding: 0px 16px;
+  color: var(--white);
+}
+
+.button  {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  margin: 32px 217px 0px 16px;
+  background-color: var(--white);
+}
+
+.membership a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* main partie 3 */
+
+.filmslist h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 48px 174px 32px 16px;
+}
+
+.film {
+  margin: 0px 0px 16px 16px;
+  background: var(--cream);
+  width: 172px;
+}
+
+.film h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.film p {
+  font-size: 16px;
+  padding: 0px 16px 16px 16px;
+}
+
+.film-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-black  {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  margin: 0px 127px 48px 127px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* footer */
+
+footer {
+  background: var(--pink);
+}
+
+.info {
+  margin: 32px 0px 16px 16px;
+  background: var(--pink);
+  width: 173px;
+}
+
+hr {
+  border-width: 3px 0px 0px 0px;
+  border-color: var(--black);
+}
+
+.info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 0px;
+}
+
+.info p {
+  font-size: 16px;
+  padding-bottom: 12px;
+  line-height: 20px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
