@@ -50,6 +50,8 @@ video {
 
 .fixed-top {
   position: fixed;
+  max-width: 390px;
+  z-index: 1;
 }
 
 header {
@@ -93,6 +95,7 @@ h1 {
 .main-article {
   background-color: #F6F6F6;
   box-shadow: 0 5px 0 0 #783DF6;
+  position: relative;
 }
 
 .main-article h2 {
@@ -110,6 +113,12 @@ h1 {
 
 .main-article span {
   background-color: #783DF6;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 700;
+  line-height: 16px;
+  position: absolute;
+  top: 16px;
 }
 
 
