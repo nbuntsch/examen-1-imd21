@@ -51,7 +51,7 @@ video {
 .fixed-top {
   position: fixed;
   max-width: 390px;
-  z-index: 1;
+  z-index: 3;
 }
 
 header {
@@ -75,7 +75,7 @@ nav {
 }
 
 .introduction {
-  padding-top: 100px;
+  padding-top: 99px;
 }
 
 .explore {
@@ -155,6 +155,22 @@ h1 {
   line-height: 24px;
   padding: 16px 32px;
   margin: 16px;
+}
+
+.buy img {
+  z-index: 1;
+  position: relative;
+}
+
+.buy .explication-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 358px;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  position: absolute;
+  z-index: 2;
+  margin: 48px 16px;
 }
 
 .more-article {
