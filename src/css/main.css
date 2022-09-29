@@ -49,6 +49,8 @@ video {
 header h1 {
   background-color: #000000;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
 }
 
 header nav {
@@ -56,6 +58,7 @@ header nav {
   padding: 16px 61px 16px 62px;
   display: flex;
   justify-content: space-between;
+  margin-top: 64px;
 }
 
 header a {
