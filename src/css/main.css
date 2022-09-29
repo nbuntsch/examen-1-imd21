@@ -84,12 +84,13 @@ body {
 }
 
 header {
-  margin-bottom: 16px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
 }
 
 h1 {
   background: black;
-  margin-bottom: 16px;
   padding: 10px 20px;
 }
 
@@ -100,11 +101,16 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 19px;
+  padding: 16px;
   gap: 16px;
 }
 
 a {
   text-decoration: none;
+}
+
+main {
+  margin-top: 99px;
 }
 
 .exploring {
