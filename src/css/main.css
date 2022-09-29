@@ -167,16 +167,20 @@ main article p {
 }
 
 .container-article article {
-  margin: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 173px;
+  height: 300px;
+  margin-bottom: 12px;
+}
+
+.first-row {
+  margin-right: 12px;
 }
 
 .button-inversed {
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
+  margin: 0 111px 48px;
+  text-align: center;
 }
 
 .container-article p {
@@ -200,7 +204,6 @@ footer {
 
 .container-column {
   display: flex;
-  flex-direction: row;
 }
 
 footer .column-footer-1,
