@@ -52,7 +52,6 @@ main {
 
 main p {
   font-size: 20px;
-  padding: 0 16px 16px 16px;
 }
 
 footer {
@@ -109,22 +108,18 @@ img {
   position: relative;
   background-color: #f6f6f6;
   margin: 0 16px 48px 16px;
-  box-shadow: 0 5px #7e00df;
-}
-
-.explore-strands p {
-  padding-bottom: 16px;
+  box-shadow: 0 5px #783df6;
 }
 
 .explore-series {
   position: relative;
   background-color: #f6f6f6;
   margin: 0 16px 48px 16px;
-  box-shadow: 0 5px #7e00df;
+  box-shadow: 0 5px #783df6;
 }
 
-.explore-series p {
-  padding-bottom: 16px;
+.text-explore {
+  padding: 0 16px 16px 16px;
 }
 
 .programme {
@@ -132,7 +127,7 @@ img {
   top: 16px;
   left: 0;
   background: #783df6;
-  padding: auto;
+  padding: 8px 16px;
 }
 
 .programme p {
@@ -148,7 +143,7 @@ img {
 }
 
 .present-membership p {
-  padding-bottom: 32px;
+  padding: 0 16px 32px 16px;
 }
 
 .button-join {
@@ -156,11 +151,7 @@ img {
   color: black;
   padding: 16px 32px;
   margin: 0 217px 0 16px;
-}
-
-.button-join a {
   font-family: "Lato-Bold";
-  text-decoration: none;
   font-size: 20px;
 }
 
@@ -206,12 +197,8 @@ img {
   text-align: center;
   padding: 16px 32px;
   margin: 12px 126px 0 128px;
-}
-
-.button-view a {
-  font-family: "Lato-Bold";
-  text-decoration: none;
   font-size: 20px;
+  font-family: "Lato-Bold";
 }
 
 .info-footer hr {
