@@ -127,11 +127,20 @@ main h2 {
   background: #000000;
   color: #ffffff;
   line-height: 28px;
+  position: relative;
 }
 .membership h3 {
   font-family: "Lato-Bold";
   font-size: 28px;
   padding: 16px;
+}
+.membership-info {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 48px;
+  left: 16px;
+  right: 16px;
+  bottom: 49px;
 }
 .membership p {
   font-family: "Lato-Regular";
