@@ -115,7 +115,7 @@ h3 {
 
 .programme h3,
 p {
-  padding: 0 16px 16px 16px;
+  padding: 0 16px 16px;
 }
 
 .card {
@@ -147,7 +147,7 @@ p {
 }
 
 .membership p {
-  margin: 0 16px 32px 16px;
+  margin: 0 16px 32px;
   padding: 0;
 }
 
@@ -191,7 +191,7 @@ button a {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  padding: 0 16px 16px 16px;
+  padding: 0 16px 16px;
 }
 
 .container {
