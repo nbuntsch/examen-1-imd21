@@ -131,16 +131,16 @@ h5 {
   margin-bottom: 48px;
 }
 
-.footer-part {
+footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-between;
   background-color: #f9dde7;
 }
 
 .footer-article {
   margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 12px;
   width: 173px;
 }
