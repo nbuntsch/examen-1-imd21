@@ -44,6 +44,7 @@ video {
 // ==================================== */
 html {
   font-family: "Lato", sans-serif;
+  width: 390px;
 }
 
 header {
